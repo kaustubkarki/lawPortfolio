@@ -623,6 +623,7 @@ img {
   width: 150px;
   justify-self: flex-end;
   filter: var(--shadow-img);
+  
 }
 
 .contact__shrimp,
@@ -791,6 +792,7 @@ img {
     grid-template-columns: 450px;
     justify-content: center;
   }
+  
 }
 
 @media screen and (min-width: 768px) {
