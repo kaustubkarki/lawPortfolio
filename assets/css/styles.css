@@ -586,7 +586,7 @@ img {
   overflow: hidden;
 }
 .contact__US-title {
-  text-align: left;
+  text-align: center;
   margin: 4rem;
 }
 
@@ -621,9 +621,9 @@ img {
 
 .contact__img {
   width: 150px;
+  margin-bottom: 2rem;
   justify-self: flex-end;
   filter: var(--shadow-img);
-  
 }
 
 .contact__shrimp,
@@ -792,7 +792,6 @@ img {
     grid-template-columns: 450px;
     justify-content: center;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
