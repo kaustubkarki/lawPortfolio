@@ -132,6 +132,8 @@ img {
   color: var(--white-color);
   font-family: var(--second-font);
   text-shadow: var(--shadow-text);
+  font-weight: 700;
+  font-size: larger;
 }
 
 .nav__close,
@@ -275,8 +277,8 @@ img {
 }
 
 .home__images .home__img {
-  width: 250px;
-  rotate: 10deg;
+  width: 300px;
+  /* rotate: 10deg; */
   filter: var(--shadow-img);
   position: absolute;
 }
@@ -350,6 +352,7 @@ img {
   width: 40px;
   position: absolute;
   opacity: 0.5;
+  z-index: -1;
 }
 
 .favourites__cheese-1 {
@@ -443,6 +446,7 @@ img {
 
 .care__img {
   width: 320px;
+  border-radius: 5px;
   filter: var(--shadow-img);
   justify-self: center;
 }
@@ -581,6 +585,10 @@ img {
   box-shadow: inset var(--shadow-card);
   overflow: hidden;
 }
+.contact__US-title {
+  text-align: left;
+  margin: 4rem;
+}
 
 .contact__content {
   padding-top: 1rem;
@@ -612,8 +620,8 @@ img {
 }
 
 .contact__img {
-  width: 200px;
-  justify-self: center;
+  width: 150px;
+  justify-self: flex-end;
   filter: var(--shadow-img);
 }
 
@@ -623,6 +631,7 @@ img {
   position: absolute;
   width: 40px;
   opacity: 0.5;
+  z-index: 0;
 }
 
 .contact__shrimp {
@@ -724,7 +733,7 @@ img {
     font-size: var(--h2-font-size);
   }
   .home__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .home__buttons {
     flex-direction: column;
@@ -846,6 +855,7 @@ img {
     text-align: initial;
   }
   .home__title {
+    font-size: 4.5rem;
     margin-bottom: 1.5rem;
   }
   .home__description {
@@ -868,7 +878,7 @@ img {
     height: 430px;
   }
   .home__images .home__img {
-    width: 800px;
+    width: 900px;
   }
   .home__images img {
     width: 95px;
@@ -1027,7 +1037,7 @@ img {
     justify-content: center;
   }
   .contact__img {
-    width: 320px;
+    width: 300px;
     transform: translateY(-6rem);
   }
   .contact__shrimp,
